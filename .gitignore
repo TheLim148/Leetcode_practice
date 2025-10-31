@@ -1,0 +1,23 @@
+# --- Общие ---
+.DS_Store
+*.log
+__pycache__/
+*.pyc
+
+# --- Rust ---
+/rust/target/
+/rust/Cargo.lock
+
+# --- Python (Poetry + venv) ---
+/python/.venv/
+/python/poetry.lock
+
+# --- IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Tests / cache ---
+pytest_cache/
+
