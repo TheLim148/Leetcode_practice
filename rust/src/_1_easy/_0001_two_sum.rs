@@ -1,3 +1,4 @@
+#[allow(dead_code)]
 pub mod solution {
     pub struct Solution;
 
@@ -16,6 +17,7 @@ pub mod solution {
     }
 }
 
+#[allow(dead_code)]
 pub fn run() {
     use solution::Solution;
     let result = Solution::two_sum(vec![2, 7, 11, 15], 9);
